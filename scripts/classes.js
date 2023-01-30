@@ -212,7 +212,7 @@ class PowerUp {
     this.radians = 0;
 
     this.image = new Image();
-    this.image.src = '../img/lightningBolt.png';
+    this.image.src = './img/lightningBolt.png';
 
     this.alpha = 1;
     gsap.to(this, { alpha: 0, duration: .2, repeat: -1, yoyo: true, ease: 'linear' });
