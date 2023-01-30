@@ -1,0 +1,74 @@
+* {
+  touch-action: none;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: black;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0;
+  font-size: 1rem;
+  color: #555555;
+}
+
+button {
+  padding: 1em 3em;
+  margin-top: 2em;
+  background-color: blue;
+  border: none;
+  color: white;
+  font-size: .8rem;
+  font-weight: bold;
+  border-radius: .5em;
+  cursor: pointer;
+}
+
+svg {
+  color: white;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.sound-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: .8em;
+}
+
+#volumeOff {
+  display: none;
+}
+
+.score-label {
+  position: absolute;
+  color: white;
+  padding: .5em;
+  user-select: none;
+}
+
+.modal {
+  position: absolute;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1.5em 3em;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.hide {
+  display: none;
+}
