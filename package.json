@@ -1,0 +1,25 @@
+{
+  "name": "base-defense",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djbedford/base-defense.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djbedford/base-defense/issues"
+  },
+  "homepage": "https://github.com/djbedford/base-defense#readme",
+  "devDependencies": {
+    "vite": "^4.1.1"
+  }
+}
